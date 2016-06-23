@@ -38,9 +38,15 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.SPOT.Hardware" />
-    <Reference Include="Microsoft.SPOT.Native" />
-    <Reference Include="Microsoft.SPOT.Net" />
+    <Reference Include="Microsoft.SPOT.Hardware">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.SPOT.Native">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.SPOT.Net">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="SecretLabs.NETMF.Hardware" />
     <Reference Include="SecretLabs.NETMF.Hardware.NetduinoPlus" />
     <Reference Include="System" />
@@ -53,5 +59,66 @@
     <Reference Include="Toolbox.NETMF.NET.Integrated">
       <HintPath>..\..\..\Release (4.2)\Toolbox.NETMF.NET.Integrated.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\be\NetduinoWebAPIClient.exe" />
+    <Content Include="bin\Debug\be\NetduinoWebAPIClient.pdb" />
+    <Content Include="bin\Debug\le\NetduinoWebAPIClient.exe" />
+    <Content Include="bin\Debug\le\NetduinoWebAPIClient.pdb" />
+    <Content Include="bin\Debug\NetduinoWebAPIClient.exe" />
+    <Content Include="bin\Debug\NetduinoWebAPIClient.pdb" />
+    <Content Include="bin\Debug\SecretLabs.NETMF.Hardware.dll" />
+    <Content Include="bin\Debug\SecretLabs.NETMF.Hardware.Netduino.dll" />
+    <Content Include="bin\Debug\SecretLabs.NETMF.Hardware.Netduino.pdb" />
+    <Content Include="bin\Debug\SecretLabs.NETMF.Hardware.NetduinoPlus.dll" />
+    <Content Include="bin\Debug\SecretLabs.NETMF.Hardware.NetduinoPlus.pdb" />
+    <Content Include="bin\Debug\SecretLabs.NETMF.Hardware.pdb" />
+    <Content Include="bin\Debug\Toolbox.NETMF.Core.dll" />
+    <Content Include="bin\Debug\Toolbox.NETMF.Core.pdb" />
+    <Content Include="bin\Debug\Toolbox.NETMF.NET.Core.dll" />
+    <Content Include="bin\Debug\Toolbox.NETMF.NET.Core.pdb" />
+    <Content Include="bin\Debug\Toolbox.NETMF.NET.HTTP_Client.dll" />
+    <Content Include="bin\Debug\Toolbox.NETMF.NET.HTTP_Client.pdb" />
+    <Content Include="bin\Debug\Toolbox.NETMF.NET.Integrated.dll" />
+    <Content Include="bin\Debug\Toolbox.NETMF.NET.Integrated.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\be\NetduinoWebAPIClient.pdbx" />
+    <None Include="bin\Debug\be\NetduinoWebAPIClient.pe" />
+    <None Include="bin\Debug\be\SecretLabs.NETMF.Hardware.Netduino.pdbx" />
+    <None Include="bin\Debug\be\SecretLabs.NETMF.Hardware.Netduino.pe" />
+    <None Include="bin\Debug\be\SecretLabs.NETMF.Hardware.NetduinoPlus.pdbx" />
+    <None Include="bin\Debug\be\SecretLabs.NETMF.Hardware.NetduinoPlus.pe" />
+    <None Include="bin\Debug\be\SecretLabs.NETMF.Hardware.pdbx" />
+    <None Include="bin\Debug\be\SecretLabs.NETMF.Hardware.pe" />
+    <None Include="bin\Debug\be\Toolbox.NETMF.Core.pdbx" />
+    <None Include="bin\Debug\be\Toolbox.NETMF.Core.pe" />
+    <None Include="bin\Debug\be\Toolbox.NETMF.NET.Core.pdbx" />
+    <None Include="bin\Debug\be\Toolbox.NETMF.NET.Core.pe" />
+    <None Include="bin\Debug\be\Toolbox.NETMF.NET.HTTP_Client.pdbx" />
+    <None Include="bin\Debug\be\Toolbox.NETMF.NET.HTTP_Client.pe" />
+    <None Include="bin\Debug\be\Toolbox.NETMF.NET.Integrated.pdbx" />
+    <None Include="bin\Debug\be\Toolbox.NETMF.NET.Integrated.pe" />
+    <None Include="bin\Debug\le\NetduinoWebAPIClient.pdbx" />
+    <None Include="bin\Debug\le\NetduinoWebAPIClient.pe" />
+    <None Include="bin\Debug\le\SecretLabs.NETMF.Hardware.Netduino.pdbx" />
+    <None Include="bin\Debug\le\SecretLabs.NETMF.Hardware.Netduino.pe" />
+    <None Include="bin\Debug\le\SecretLabs.NETMF.Hardware.NetduinoPlus.pdbx" />
+    <None Include="bin\Debug\le\SecretLabs.NETMF.Hardware.NetduinoPlus.pe" />
+    <None Include="bin\Debug\le\SecretLabs.NETMF.Hardware.pdbx" />
+    <None Include="bin\Debug\le\SecretLabs.NETMF.Hardware.pe" />
+    <None Include="bin\Debug\le\Toolbox.NETMF.Core.pdbx" />
+    <None Include="bin\Debug\le\Toolbox.NETMF.Core.pe" />
+    <None Include="bin\Debug\le\Toolbox.NETMF.NET.Core.pdbx" />
+    <None Include="bin\Debug\le\Toolbox.NETMF.NET.Core.pe" />
+    <None Include="bin\Debug\le\Toolbox.NETMF.NET.HTTP_Client.pdbx" />
+    <None Include="bin\Debug\le\Toolbox.NETMF.NET.HTTP_Client.pe" />
+    <None Include="bin\Debug\le\Toolbox.NETMF.NET.Integrated.pdbx" />
+    <None Include="bin\Debug\le\Toolbox.NETMF.NET.Integrated.pe" />
+    <None Include="OnBoardFlash.dat" />
+    <None Include="OnBoardFlash.dat.smd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DOTNETMF_FS_EMULATION\WINFS\" />
   </ItemGroup>
 </Project>

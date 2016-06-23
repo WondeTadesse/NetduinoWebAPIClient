@@ -20,7 +20,7 @@ namespace NetduinoWebAPIClient
         static OutputPort led = new OutputPort(Pins.ONBOARD_LED, false);
         public static void Main()
         {
-            try
+            try 
             {
                 // Creates a new web session
                 HTTP_Client WebSession = new HTTP_Client(new IntegratedSocket("127.0.0.1", 80));
